@@ -98,7 +98,9 @@ raw
 
 
 ## 查看结果
+```
 bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic userbehavior2 --from-beginning
+```
 
 
